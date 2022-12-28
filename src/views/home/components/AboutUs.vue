@@ -10,17 +10,17 @@
       <div class="rt">
         <img src="@/assets/banner.jpg" alt="" />
         <div class="boxLine"></div>
-        <router-link to="/about"><div class="btn fa fa-long-arrow-right"></div></router-link>
+        <!-- <router-link to="/about"><div class="btn fa fa-long-arrow-right"></div></router-link> -->
       </div>
     </div>
     <!-- 分类区域 -->
-    <div class="aboItems">
+    <!-- <div class="aboItems">
       <div class="item" v-for="item in itemList" :key="item.id">
         <i class="fa fa-camera-retro fa-2x"></i>
         <span>{{ item.title }}</span>
         <span>{{ item.content }}</span>
-      </div>
-    </div>
+      </div> -->
+    <!-- </div> -->
   </section>
 </template>
 
@@ -29,7 +29,7 @@ export default {
   data() {
     return {
       about_cont:
-        '为您不断创新并提供有关多个行业领域的高质量商业设计与营销培训课程，课程涉及服装如何搭配，服装陈列,陈列师培训、化妆、视觉营销培训,专为热爱界面设计的你而倾力打造。这里拥有无敌的创意、精美的视觉、国际化的意识和前瞻性思维！也许在不知不觉中，它将成为你设计路上的一位好伙伴，在你需要灵感的时候给予你帮助，鼓励你不断向前!',
+        '公司于2016年创办成立，总部位于浙江省杭州市国家高新技术产业开发区，是一家集研发、生产、销售、服务为一体的高新技术企业。公司主营业务：气象仪器、环保仪器以及解决方案。公司为自然资源部、环保部、气象局、民航、科研院所、高校等不同领域用户提供了高性能监测设备、分析仪器、运维服务以及创新产品组合和解决方案。公司先后为多个国家级重大项目提供保障工作，分别参与了2022年北京冬奥会和冬残奥会气象服务保障、2019年第七届世界军人运 动会环境空气质量保障工作、中华人民共和国成立70周年庆祝活动气象服务保障等重大项目，均取得圆满成功，专业水平和服务能力得到用户一致的好评和认可',
       itemList: [
         //导航
         { id: '001', title: '穿衣', content: '穿衣品味是培养你时尚感的一步' },

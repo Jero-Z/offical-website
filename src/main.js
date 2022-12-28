@@ -5,7 +5,7 @@ import router from './router'
 /* 路由发生变化修改页面title */
 router.beforeEach((to, from, next) => {
   if (to.meta.title) {
-    document.title = to.meta.title + "_艾尼斯"
+    document.title = to.meta.title + "中科技达"
   }
   next()
 })

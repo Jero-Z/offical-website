@@ -2,29 +2,30 @@
   <div>
     <!-- 头部banner -->
     <banner />
+    <!-- 新闻动态 -->
+    <news />
     <!-- 关于我们 -->
     <about-us />
     <!-- 课程分类 -->
     <course-class />
     <!-- 服务 -->
-    <service />
+    <!-- <service /> -->
     <!-- 学员感言 -->
     <student-speak />
     <!-- 导师团队 -->
-    <teacher-team />
-    <!-- 新闻动态 -->
-    <news />
+    <!-- <teacher-team /> -->
     <!-- 简介 -->
     <intro />
     <!-- 给我们留言 -->
-    <message />
+    <!-- <message /> -->
+    
   </div>
 </template>
 
 <script>
 import banner from '@/views/home/components/Banner';
-import AboutUs from '@/views/home/components/AboutUs';
 import CourseClass from '@/views/home/components/CourseClass';
+import AboutUs from '@/views/home/components/AboutUs';
 import Service from '@/views/home/components/Service';
 import StudentSpeak from '@/views/home/components/StudentSpeak';
 import TeacherTeam from '@/views/home/components/TeacherTeam';

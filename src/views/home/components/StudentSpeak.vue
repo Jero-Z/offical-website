@@ -2,7 +2,7 @@
   <div class="pubBg">
     <section class="pubCon stuCon">
       <div class="pubTit">
-        <h2>学员感言</h2>
+        <h2>合作伙伴</h2>
         <h3>REFLECTIONS</h3>
       </div>
       <div class="slickBox">
@@ -35,22 +35,22 @@ export default {
         arrows: true, //左右切换按钮
         dots: false, //分页导航
         autoplay: true, //自动播放
-        fade: false, //淡化切换
+        fade: true, //淡化切换
         speed: 500, //动画时间
-        autoplaySpeed: 3000, //间隔时间
+        autoplaySpeed: 100000, //间隔时间
       },
       stuSpeakList: [
         {
           id: '001',
-          name: 'Christine',
-          cont: '经过8节课的学习收获很多，对选择衣服的颜色、材质、形状、图案以及整体风格都有更深的了解。让我认识了女人要活的有品味，穿什么给别人留下什么印象、传递什么。生活也更自信了。',
-          head: 'https://ntemimg.wezhan.cn/contents/sitefiles2038/10193466/images/-38667.png',
+          name: '中国气象',
+          cont: '行业评价',
+          head: 'http://www.shallow-sea.com/Upload/image/202206/20220608112506_1128.png',
         },
         {
           id: '002',
-          name: 'Cherry',
-          cont: '要反复复训，每次上课，听的感觉都不一样，都有新的收获，不仅提高了自己的审美能力，对工作帮助也很大，总之在这里跟姐妹们学习很开心。',
-          head: 'https://ntemimg.wezhan.cn/contents/sitefiles2038/10193466/images/-38665.jpg',
+          name: '中国商飞',
+          cont: '行业评价',
+          head: 'http://www.shallow-sea.com/Upload/image/202206/20220608124512_5180.png',
         },
       ],
     };

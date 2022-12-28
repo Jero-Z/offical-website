@@ -2,7 +2,7 @@
   <div class="pubBg">
     <section class="pubCon couCon">
       <div class="pubTit">
-        <h2>课程分类</h2>
+        <h2>产品中心</h2>
         <h3>CURRICULUM CLASSIFCATION</h3>
       </div>
 
@@ -27,22 +27,22 @@ export default {
         {
           id: '001',
           img: 'https://ntemimg.wezhan.cn/contents/sitefiles2038/10193466/images/-38682.png',
-          tit: '服装搭配',
+          tit: '产品1',
         },
         {
           id: '002',
           img: 'https://ntemimg.wezhan.cn/contents/sitefiles2038/10193466/images/-38683.png',
-          tit: '模特彩妆',
+          tit: '产品2',
         },
         {
           id: '003',
           img: 'https://ntemimg.wezhan.cn/contents/sitefiles2038/10193466/images/-38682.png',
-          tit: '服装陈列',
+          tit: '产品3',
         },
         {
           id: '004',
           img: 'https://ntemimg.wezhan.cn/contents/sitefiles2038/10193466/images/-38683.png',
-          tit: '视觉营销',
+          tit: '产品4',
         },
       ],
     };

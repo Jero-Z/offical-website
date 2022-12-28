@@ -7,7 +7,7 @@
           src="https://ntemimg.wezhan.cn/contents/sitefiles2038/10193466/images/-38651.png"
           alt=""
         />
-        <div class="boxLine"></div>
+        <!-- <div class="boxLine"></div> -->
         <div class="topLine"></div>
         <div class="bottmLine"></div>
         <div class="tit">

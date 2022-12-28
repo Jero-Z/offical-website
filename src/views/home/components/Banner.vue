@@ -1,7 +1,7 @@
 <template>
   <div class="homeBanner">
-    <h1>Fashion models</h1>
-    <h6>SPEAL FOR FASHION</h6>
+    <h1>中科技达</h1>
+    <h6>公司理念标语</h6>
   </div>
 </template>
 

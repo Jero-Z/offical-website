@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <div class="navBar" :class="{ open: isOpenMenu }">
-      <div class="nav_logo"><router-link to="/">ANS</router-link></div>
+      <div class="nav_logo"><router-link to="/">中科技达集团</router-link></div>
       <div class="nav_menu">
         <router-link
           v-for="item in navMenuList"
@@ -26,10 +26,10 @@ export default {
       navMenuList: [
         //导航
         { id: '001', path: '/home', itmeName: '首页' },
-        { id: '002', path: '/about', itmeName: '关于我们' },
-        { id: '003', path: '/course', itmeName: '课程分类' },
-        { id: '004', path: '/teacher', itmeName: '教师团队' },
-        { id: '005', path: '/news', itmeName: '新闻动态' },
+        { id: '002', path: '/news', itmeName: '新闻动态' },
+        { id: '003', path: '/course', itmeName: '产品中心' },
+        { id: '004', path: '/teacher', itmeName: '解决方案' },
+        { id: '005', path: '/about', itmeName: '关于我们' },
         { id: '006', path: '/contact', itmeName: '联系我们' },
       ],
       isOpenMenu: false, //小屏幕下是否显示菜单
