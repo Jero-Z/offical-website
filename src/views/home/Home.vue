@@ -11,11 +11,11 @@
     <!-- 服务 -->
     <!-- <service /> -->
     <!-- 学员感言 -->
-    <student-speak />
+    <!-- <student-speak /> -->
     <!-- 导师团队 -->
     <!-- <teacher-team /> -->
     <!-- 简介 -->
-    <intro />
+    <!-- <intro /> -->
     <!-- 给我们留言 -->
     <!-- <message /> -->
     
